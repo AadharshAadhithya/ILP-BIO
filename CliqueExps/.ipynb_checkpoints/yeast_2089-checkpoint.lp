@@ -1,7 +1,7 @@
 \ Model Yeast_209
 \ LP format - for model browsing. Use MPS format to capture full model detail.
 Minimize
--1 *(C0 + C1 + C2 + C3 + C4 + C5 + C6 + C7 + C8 + C9
+- C0 - C1 - C2 - C3 - C4 - C5 - C6 - C7 - C8 - C9
    + C10 + C11 + C12 + C13 + C14 + C15 + C16 + C17 + C18
    + C19 + C20 + C21 + C22 + C23 + C24 + C25 + C26 + C27
    + C28 + C29 + C30 + C31 + C32 + C33 + C34 + C35 + C36
@@ -25,7 +25,7 @@ Minimize
    + C180 + C181 + C182 + C183 + C184 + C185 + C186 + C187
    + C188 + C189 + C190 + C191 + C192 + C193 + C194 + C195
    + C196 + C197 + C198 + C199 + C200 + C201 + C202 + C203
-   + C204 + C205 + C206 + C207 + C208)
+   + C204 + C205 + C206 + C207 + C208
 Subject To
  R0: C0 + C1 <= 1
  R1: C0 + C2 <= 1
